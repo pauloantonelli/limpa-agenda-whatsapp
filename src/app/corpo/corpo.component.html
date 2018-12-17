@@ -1,0 +1,18 @@
+<div class="container">
+  <!-- Page Content goes here -->
+  <div class="row">
+    <div class="col s12">
+      <br>
+      <select [(ngModel)]="selectedValue" value='teste'>
+        <option *ngFor="let item of ddds" [ngValue]="item" #dddEscolhido> {{ item.ddd }} {{ item.name }} </option>
+      </select>
+      <input type="number" placeholder="Cole o numero do telefone aqui!" [(ngModel)]="telefone" maxlength="9" required/>
+      <input id="displayErros" [value]="erros" style="display: none" readonly/>
+      <br/>
+      <textarea [(ngModel)]="mensagem" placeholder="Deixando esse campo em branco, o contato comecará com um oi" rows="10" cols="30"></textarea>
+      <br/>
+    <button class="btn waves-effect waves-light" (click)="detecta(telefone)">Enviar
+        <i class="material-icons right">send</i>
+      </button>
+    </div>
+</div>

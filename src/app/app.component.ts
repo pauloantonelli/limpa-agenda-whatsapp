@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { CorpoComponent } from './corpo/corpo.component';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-whatapp';
+  constructor() {
+    const ok = new CorpoComponent();
+    ok.plataforma();
+  }
 }

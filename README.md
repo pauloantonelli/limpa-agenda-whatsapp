@@ -1,5 +1,14 @@
 # AngularWhatapp
 
+# Descrição
+Webapp que auxilia quem utiliza muito o whatsapp para entrar em contato com pessoas diferentes, por exemplo lojas de todo tipo.
+Ao entrar com o numero e clicar em "enviar" a aplicação abre o whatsapp direto, que por sua vez faz a procura do contato, se existir a conversa com o destinatario é aberta, já incluindo um olá caso o campo mensagem na aplicação nao tenha sido preenchida.
+O numero usado é salvo localmente. Para futuros resgates desses numeros basta clicar sobre o numero desejado que o numero é automaticamente no campo de telefone.
+Caso queira o numero pode ser deletado do banco local tambem.
+Aplicação em pwa, com as maravilhas que um pwa pode oferecer.
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
 ---
 DEMO --> (https://whatsapp.zoominit.com.br)
